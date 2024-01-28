@@ -244,18 +244,40 @@ td,th{
     margin: 1em auto;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:810px){
     h1{
         text-align: center;
     }
     nav{
         position: static;
     }
-    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video {
-        width: auto;
+
+    nav a{
+        font-size: 1em;
     }
+
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video, .productos {
+        width: auto;
+        text-align: center;
+    }
+
+    .productos li {
+        display: block;
+        width: auto;
+        margin-bottom: 3%;
+    }
+
+    .productos li img {
+        width: 100px;
+    }
+
     .lista-diferenciales, .imagen-diferenciales{
         width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .input-padron, .enviar {
+        width: 80%;
     }
 
 }
